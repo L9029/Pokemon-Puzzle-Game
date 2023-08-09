@@ -15,7 +15,7 @@ FONT_PATH = os.path.join(os.getcwd(), "resources/font/FZSTK.TTF")
 PICTURES_PATH = os.path.join(os.getcwd(), "resources/pictures/")
 
 #Screen size
-SCREEN_SIZE = (640, 640)
+SCREEN_SIZE = (800, 800)
 
 #Random number
 RANDOM = 100

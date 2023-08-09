@@ -6,7 +6,7 @@ def Show_End_Interface(screen, width, height):
     #Setting the Background of the screen
     screen.fill(cfg.BACKGROUND_COLOR)
     #Setting the Font for the screen
-    font = pygame.font.Font(cfg.FONT_PATH, width / 15)
+    font = pygame.font.Font(cfg.FONT_PATH, width // 15)
     #Setting the title for the end screen
     title = font.render("Good Job! You Won!", True, (233, 150, 122))
     #Defining the position and rect for the end title
@@ -30,7 +30,7 @@ def Show_Start_Interface(screen, width, height):
     screen.fill(cfg.BACKGROUND_COLOR)
     
     #Setting the title font for the screen
-    title_font = pygame.font.Font(cfg.FONT_PATH, width // 4)
+    title_font = pygame.font.Font(cfg.FONT_PATH, width // 6)
     title = title_font.render("Puzzle Game", True, cfg.RED)
     
     #Setting the content font and the contents for the screen
