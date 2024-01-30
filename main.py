@@ -1,7 +1,5 @@
 import pygame
-import random
 import sys
-import os
 from config import cfg
 from func import *
 
